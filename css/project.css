@@ -1,0 +1,346 @@
+body{
+
+margin:0;
+font-family:Inter;
+color:#111;
+line-height:1.7;
+background:white;
+
+}
+
+
+
+.top-nav{
+
+padding:20px 8%;
+background-color: #f7f7f7;
+
+}
+
+
+
+.back-btn{
+
+text-decoration:none;
+font-size:14px;
+color:#444;
+
+}
+
+
+
+.hero{
+
+text-align:center;
+padding:40px 10% 40px;
+
+}
+
+
+
+.hero h1{
+
+font-size:64px;
+font-weight:600;
+margin-bottom:10px;
+
+
+}
+
+
+
+.hero-sub{
+
+font-size:18px;
+color:#666;
+
+}
+
+
+
+/* TEXT SECTIONS */
+
+.text-section{
+
+max-width:700px;
+margin:auto;
+padding:50px 20px;
+text-align:center;
+
+}
+
+
+.text-section h2{
+
+font-size:36px;
+margin-bottom:20px;
+
+}
+
+
+
+.text-section p{
+
+font-size:18px;
+color:#444;
+
+}
+
+
+
+/* LARGE MOCKUPS */
+
+.full-image{
+
+width:100%;
+padding:30px 07;
+
+}
+
+
+
+.full-image img{
+
+width:95%;
+display:block;
+border-radius: 10px;
+position: relative;
+left: 40px;
+
+}
+
+
+
+.image-caption{
+
+text-align:center;
+font-size:14px;
+color:#777;
+margin-top:10px;
+
+}
+
+
+
+/* TESTIMONIAL */
+
+.testimonial{
+
+text-align:center;
+padding:120px 20px;
+background:#f7f7f7;
+
+}
+
+
+
+.testimonial p{
+
+font-size:28px;
+max-width:700px;
+margin:auto;
+
+}
+
+
+
+.testimonial span{
+
+display:block;
+margin-top:20px;
+font-size:14px;
+color:#666;
+
+}
+
+
+
+/* PROJECT NAV */
+
+.project-nav{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 8%;
+border-top:1px solid #eee;
+
+}
+
+
+
+.nav-link{
+
+text-decoration:none;
+font-size:16px;
+color:black;
+
+}
+
+
+
+.nav-link.center{
+
+font-weight:600;
+
+}
+
+
+
+
+@media (max-width:1024px){
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.hero-sub{
+
+font-size:16px;
+
+}
+
+.text-section{
+
+padding:100px 30px;
+
+}
+
+.text-section h2{
+
+font-size:30px;
+
+}
+
+.testimonial p{
+
+font-size:24px;
+
+}
+
+.project-nav{
+
+padding:60px 6%;
+
+}
+
+}
+
+
+
+
+
+@media (max-width:768px){
+
+.hero{
+
+padding:80px 20px 60px;
+
+}
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+.hero-sub{
+
+font-size:16px;
+
+}
+
+.text-section{
+
+padding:80px 20px;
+
+}
+
+.text-section h2{
+
+font-size:26px;
+
+}
+
+.text-section p{
+
+font-size:16px;
+
+}
+
+.testimonial{
+
+padding:80px 20px;
+
+}
+
+.testimonial p{
+
+font-size:22px;
+
+}
+
+.project-nav{
+
+flex-direction:column;
+gap:20px;
+text-align:center;
+
+}
+
+}
+
+
+
+
+@media (max-width:480px){
+
+.hero h1{
+
+font-size:30px;
+
+}
+
+.hero-sub{
+
+font-size:15px;
+
+}
+
+.text-section h2{
+
+font-size:22px;
+
+}
+
+.text-section p{
+
+font-size:15px;
+
+}
+
+.testimonial p{
+
+font-size:20px;
+
+}
+
+.back-btn{
+
+font-size:13px;
+
+}
+
+}
+
+
+
+
+img{
+
+max-width:100%;
+height:auto;
+
+}
